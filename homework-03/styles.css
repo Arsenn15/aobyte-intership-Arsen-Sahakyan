@@ -1,0 +1,51 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.input {
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 0 1px gray;
+    border-radius: 4px;
+}
+
+.input:focus {
+    box-shadow: 0 0 0 1px #51C0FF;
+}
+
+.rectangle {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rotateBtn {
+    padding: 10px 15px;
+    border: none;
+    background: gray;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.rotateBtn:hover {
+    background: #51C0FF;
+    color: black;
+}
+
+.rotateBtn:active {
+    background: gray;
+    color: white;
+}
